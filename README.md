@@ -3,21 +3,20 @@ Una librería de Java desarrollada con Maven que implementa un sistema completo 
 
 ## Arquitectura del Proyecto:
 
-EmployeeManagement/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   ├── models/          # Entidades JPA
-│   │   │   ├── dao/             # Capa de acceso a datos
-│   │   │   ├── service/         # Lógica de negocio
-│   │   │   └── util/            # Utilidades
-│   │   └── resources/
-│   │       └── META-INF/
-│   │           └── persistence.xml
-│   └── test/                    # Pruebas unitarias
-└── pom.xml
+### `/src/main/java/`
+- **`models/`** - Entidades JPA (Cargo, Empleado)
+- **`dao/`** - Interfaces e implementaciones de Data Access Object
+- **`service/`** - Lógica de negocio y servicios
+- **`util/`** - Utilidades (JPAUtil, etc.)
 
+### `/src/main/resources/`
+- **`META-INF/persistence.xml`** - Configuración de persistencia JPA
 
+### `/src/test/`
+- Pruebas unitarias y de integración
+
+### Archivos Raíz
+- **`pom.xml`** - Configuración de Maven y dependencias
 ## Tech:
 
 ###  Tecnologías Utilizadas
