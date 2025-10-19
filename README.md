@@ -2,7 +2,7 @@ Una librería de Java desarrollada con Maven que implementa un sistema completo 
 
 
 ## Arquitectura del Proyecto:
-'''
+
 EmployeeManagement/
 ├── src/
 │   ├── main/
@@ -16,7 +16,7 @@ EmployeeManagement/
 │   │           └── persistence.xml
 │   └── test/                    # Pruebas unitarias
 └── pom.xml
-'''
+
 
 ## Tech:
 
